@@ -1,0 +1,53 @@
+name: tammi-platform
+label: Tammi
+kind: platform
+version: 0.1.0
+description: >
+  Tammi (Viettel messenger, tammi.vn) gateway adapter for Hermes Agent.
+  Talks to a local Node.js bridge that runs the Tammi web chat SDK (ZEGO ZIM,
+  Viettel build) over HTTP/SSE. Receives 1-1 and group messages (text, images,
+  files, voice, video) and replies with text and media. The gateway can start
+  the bridge automatically. Log in once with `hermes-tammi-plugin login`.
+author: cuong
+requires_env:
+  - name: TAMMI_BRIDGE_URL
+    description: "Base URL of the Tammi bridge (default http://127.0.0.1:8788)"
+    prompt: "Tammi bridge URL"
+    password: false
+optional_env:
+  - name: TAMMI_BRIDGE_TOKEN
+    description: "Shared secret between adapter and bridge (sent as x-bridge-token). Optional on localhost."
+    prompt: "Bridge token (optional)"
+    password: true
+  - name: TAMMI_BRIDGE_AUTOSTART
+    description: "Start the Node bridge automatically when the gateway connects and it is not running (default true)."
+    prompt: "Auto-start bridge? (true/false)"
+    password: false
+  - name: TAMMI_BRIDGE_DIR
+    description: "Path to the bridge/ directory (server.js). Auto-detected from the install."
+    prompt: "Bridge directory"
+    password: false
+  - name: TAMMI_ALLOWED_USERS
+    description: "Comma-separated Tammi user IDs (zegoId) allowed to talk to the bot. Empty = pairing for strangers."
+    prompt: "Allowed Tammi user IDs (comma-separated)"
+    password: false
+  - name: TAMMI_ALLOW_ALL_USERS
+    description: "true = anyone who messages this Tammi account gets an AI reply (risky on a personal account)."
+    prompt: "Allow everyone? (true/false)"
+    password: false
+  - name: TAMMI_ALLOWED_CONVERSATIONS
+    description: "Comma-separated conversation IDs (DM peer id or group id) the bot operates in. Empty = all."
+    prompt: "Allowed conversation IDs (comma-separated, blank = all)"
+    password: false
+  - name: TAMMI_GROUP_MODE
+    description: "Groups: 'mention' (reply only when @mentioned or replied to, default), 'all', or 'off'."
+    prompt: "Group mode (mention/all/off)"
+    password: false
+  - name: TAMMI_HOME_CHANNEL
+    description: "Default conversation for cron/notifications: <id> or group:<id>."
+    prompt: "Home channel"
+    password: false
+  - name: TAMMI_LOG_IDS
+    description: "Log sender/conversation IDs of inbound messages (to build allowlists)."
+    prompt: "Log inbound IDs? (true/false)"
+    password: false
