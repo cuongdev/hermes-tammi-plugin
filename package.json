@@ -46,7 +46,7 @@
     "setup": "node install.mjs",
     "uninstall": "node uninstall.mjs",
     "postinstall": "node scripts/postinstall.mjs",
-    "test": "node --test tests/*.test.js",
+    "test": "node --test",
     "prepare": "husky",
     "render-assets": "python3 assets/src/render.py"
   },
