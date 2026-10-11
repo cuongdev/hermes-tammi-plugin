@@ -1,0 +1,17 @@
+node_modules/
+
+# runtime data (normally in ~/.hermes-tammi)
+.hermes-tammi/
+credentials.json
+sdk/
+*.har
+*.log
+
+*.tgz
+
+__pycache__/
+*.pyc
+.pytest_cache/
+
+.DS_Store
+*.swp

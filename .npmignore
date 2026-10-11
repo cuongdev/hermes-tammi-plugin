@@ -1,0 +1,14 @@
+# backup for package.json "files"
+.hermes-tammi/
+credentials.json
+sdk/
+*.har
+*.log
+*.tgz
+__pycache__/
+*.pyc
+.pytest_cache/
+tests/
+.github/
+.gitignore
+.DS_Store
