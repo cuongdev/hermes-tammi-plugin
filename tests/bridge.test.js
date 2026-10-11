@@ -132,8 +132,8 @@ test("resolveHermesHome: --hermes-home > HERMES_HOME > ~/.hermes", () => {
   delete process.env.HERMES_HOME;
   assert.strictEqual(resolveHermesHome([]).source, "default");
   process.env.HERMES_HOME = "/tmp/hx";
-  assert.deepStrictEqual(resolveHermesHome([]), { dir: "/tmp/hx", source: "env" });
-  assert.deepStrictEqual(resolveHermesHome(["--hermes-home", "/tmp/hy"]), { dir: "/tmp/hy", source: "flag" });
+  assert.deepStrictEqual(resolveHermesHome([]), { dir: path.resolve("/tmp/hx"), source: "env" });
+  assert.deepStrictEqual(resolveHermesHome(["--hermes-home", "/tmp/hy"]), { dir: path.resolve("/tmp/hy"), source: "flag" });
   assert.strictEqual(resolveHermesHome(["--hermes-home=~/p"]).dir, path.join(os.homedir(), "p"));
   assert.throws(() => resolveHermesHome(["--hermes-home"]));
   if (saved === undefined) delete process.env.HERMES_HOME; else process.env.HERMES_HOME = saved;

@@ -61,7 +61,7 @@ test("expired access token is refreshed and the rotated refresh token is persist
   assert.strictEqual(saved.access_token, "a1");
   assert.strictEqual(saved.refresh_token, "r1");
   assert.ok(saved.refresh_expiry_time_seconds > Date.now() / 1000 + 89 * 86400);
-  assert.strictEqual((fs.statSync(file).mode & 0o777).toString(8), "600");
+  if (process.platform !== "win32") assert.strictEqual((fs.statSync(file).mode & 0o777).toString(8), "600");
 });
 
 test("a 5xx from the refresh endpoint is transient, not a dead session", async () => {
