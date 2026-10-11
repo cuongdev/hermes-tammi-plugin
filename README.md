@@ -6,6 +6,7 @@
   <a href="https://www.npmjs.com/package/hermes-tammi-plugin"><img src="https://img.shields.io/npm/v/hermes-tammi-plugin.svg" alt="npm version"></a>
   <a href="https://github.com/cuongdev/hermes-tammi-plugin/actions/workflows/ci.yml"><img src="https://github.com/cuongdev/hermes-tammi-plugin/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/semantic-release/semantic-release"><img src="https://img.shields.io/badge/semantic--release-conventionalcommits-e10079" alt="semantic-release"></a>
+  <a href="https://github.com/cuongdev/hermes-tammi-plugin/stargazers"><img src="https://img.shields.io/github/stars/cuongdev/hermes-tammi-plugin?style=social" alt="GitHub stars"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/npm/l/hermes-tammi-plugin.svg" alt="license"></a>
 </p>
 
@@ -171,6 +172,11 @@ Releases are cut by semantic-release from `main`: `fix:` → patch, `feat:` → 
 
 Unofficial, built from the tammi.vn web client. Viettel can change it at any time; run
 `hermes-tammi-plugin fetch-sdk` after a Tammi web update. Replies are sent from your real account.
+
+## Star History
+
+If this is useful to you, a ⭐ helps other people find it.
+[Star history chart](https://star-history.com/#cuongdev/hermes-tammi-plugin&Date)
 
 ## License
 
