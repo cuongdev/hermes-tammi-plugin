@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 600" role="img" aria-label="Chatting with the Hermes agent from Tammi (illustration)">
+  <title>Chatting with Hermes from Tammi (illustration)</title>
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C8102E"/>
+      <stop offset="1" stop-color="#FF4F7B"/>
+    </linearGradient>
+    <clipPath id="screen"><rect x="14" y="14" width="312" height="572" rx="34"/></clipPath>
+  </defs>
+  <rect x="2" y="2" width="336" height="596" rx="44" fill="#1B1B1F"/>
+  <g clip-path="url(#screen)" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif">
+    <rect x="14" y="14" width="312" height="572" fill="#FFF5F7"/>
+    <rect x="14" y="14" width="312" height="92" fill="url(#hdr)"/>
+    <text x="40" y="44" font-size="12" fill="#FFE7EE">9:41</text>
+    <text x="34" y="80" font-size="20" fill="#ffffff">‹</text>
+    <circle cx="70" cy="74" r="17" fill="#ffffff"/>
+    <text x="70" y="80" font-size="15" font-weight="800" fill="#C8102E" text-anchor="middle">H</text>
+    <text x="96" y="70" font-size="15" font-weight="700" fill="#ffffff">Hermes của An</text>
+    <text x="96" y="88" font-size="11" fill="#FFE7EE">nhóm riêng · chỉ mình bạn</text>
+
+    <text x="170" y="134" font-size="11" fill="#9A7A83" text-anchor="middle">Hôm nay 08:30</text>
+
+    <rect x="96" y="148" width="214" height="56" rx="16" fill="#C8102E"/>
+    <text x="110" y="171" font-size="13" fill="#ffffff">Viết giúp anh lời chúc mừng</text>
+    <text x="110" y="190" font-size="13" fill="#ffffff">sinh nhật sếp, ngắn gọn nhé</text>
+
+    <g>
+      <rect x="28" y="218" width="58" height="30" rx="15" fill="#ffffff" stroke="#F0DDE2"/>
+      <circle cx="45" cy="233" r="3.5" fill="#C9A9B2"/><circle cx="57" cy="233" r="3.5" fill="#C9A9B2"/><circle cx="69" cy="233" r="3.5" fill="#C9A9B2"/>
+    </g>
+
+    <rect x="28" y="262" width="242" height="132" rx="16" fill="#ffffff" stroke="#F0DDE2"/>
+    <text x="42" y="285" font-size="13" fill="#2A0E16">Mừng sinh nhật anh! Chúc anh</text>
+    <text x="42" y="304" font-size="13" fill="#2A0E16">một tuổi mới thật nhiều sức khoẻ,</text>
+    <text x="42" y="323" font-size="13" fill="#2A0E16">luôn vững vàng dẫn dắt team và</text>
+    <text x="42" y="342" font-size="13" fill="#2A0E16">có thêm nhiều niềm vui bên gia</text>
+    <text x="42" y="361" font-size="13" fill="#2A0E16">đình. Cảm ơn anh vì đã luôn đồng</text>
+    <text x="42" y="380" font-size="13" fill="#2A0E16">hành cùng mọi người! 🎂</text>
+
+    <rect x="160" y="410" width="150" height="34" rx="16" fill="#C8102E"/>
+    <text x="176" y="432" font-size="13" fill="#ffffff">Ok em, cảm ơn 👍</text>
+
+    <rect x="14" y="532" width="312" height="54" fill="#ffffff"/>
+    <rect x="30" y="544" width="236" height="30" rx="15" fill="#FFF0F3"/>
+    <text x="46" y="564" font-size="12" fill="#B59AA2">Nhập tin nhắn…</text>
+    <circle cx="290" cy="559" r="15" fill="#C8102E"/>
+    <path d="M284 552 L298 559 L284 566 L286 559 Z" fill="#ffffff"/>
+  </g>
+</svg>

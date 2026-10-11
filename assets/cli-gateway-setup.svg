@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="963" height="1132" viewBox="0 0 963 1132" role="img" aria-label="hermes gateway setup">
+<rect width="963" height="1132" rx="10" fill="#1e1e2e"/>
+<rect width="963" height="30" rx="10" fill="#313244"/><rect y="20" width="963" height="10" fill="#313244"/>
+<circle cx="18" cy="15" r="6" fill="#ff5f57"/><circle cx="38" cy="15" r="6" fill="#febc2e"/><circle cx="58" cy="15" r="6" fill="#28c840"/>
+<text x="482" y="19" fill="#a6adc8" font-family="-apple-system, Segoe UI, sans-serif" font-size="12" text-anchor="middle">hermes gateway setup</text>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#cdd6f4">
+<text x="18.0" y="60" xml:space="preserve" fill="#a6e3a1">$</text>
+<text x="25.8" y="60" xml:space="preserve"> </text>
+<text x="33.7" y="60" xml:space="preserve" fill="#ffffff" font-weight="bold">hermes gateway setup</text>
+<text x="18.0" y="98" xml:space="preserve" fill="#89dceb">◆ Messaging Platforms</text>
+<text x="18.0" y="117" xml:space="preserve">Select a platform to configure:</text>
+<text x="18.0" y="136" xml:space="preserve">  </text>
+<text x="33.7" y="136" xml:space="preserve" fill="#7f849c">↑↓ navigate  ENTER/SPACE select  ESC cancel</text>
+<text x="18.0" y="174" xml:space="preserve">   (○) 🐧 QQ Bot  </text>
+<text x="158.9" y="174" xml:space="preserve" fill="#7f849c">(not configured)</text>
+<text x="18.0" y="193" xml:space="preserve">   (○) 💎 Yuanbao  </text>
+<text x="166.8" y="193" xml:space="preserve" fill="#7f849c">(not configured)</text>
+<text x="18.0" y="212" xml:space="preserve"> </text>
+<text x="25.8" y="212" xml:space="preserve" fill="#a6e3a1">→ (●) 💬 Tammi</text>
+<text x="135.4" y="212" xml:space="preserve">  </text>
+<text x="151.1" y="212" xml:space="preserve" fill="#7f849c">(not configured)</text>
+<text x="18.0" y="231" xml:space="preserve">   (○) 🧩 A2A  </text>
+<text x="135.4" y="231" xml:space="preserve" fill="#7f849c">(not configured)</text>
+<text x="18.0" y="250" xml:space="preserve">   (○) 🎮 Discord  </text>
+<text x="166.8" y="250" xml:space="preserve" fill="#7f849c">(not configured)</text>
+<text x="18.0" y="288" xml:space="preserve" fill="#89dceb">◆ Tammi</text>
+<text x="18.0" y="307" xml:space="preserve">  Kết nối Hermes với tài khoản Tammi (tammi.vn) qua bridge Node.js chạy SDK chat của Tammi.</text>
+<text x="18.0" y="326" xml:space="preserve" fill="#f9e2af">⚠ Đây là API web không chính thức của Tammi — bot trả lời BẰNG CHÍNH TÀI KHOẢN của anh.</text>
+<text x="18.0" y="345" xml:space="preserve">  Bridge: /opt/homebrew/lib/node_modules/hermes-tammi-plugin/bridge</text>
+<text x="18.0" y="364" xml:space="preserve">Bridge URL [http://127.0.0.1:8788]: </text>
+<text x="18.0" y="383" xml:space="preserve">Để gateway tự bật bridge khi chạy `hermes gateway`? [Y/n]: </text>
+<text x="18.0" y="402" xml:space="preserve" fill="#a6e3a1">  Bridge OK — đăng nhập: Nguyễn Văn An (a1b2c3d4e5f60718293a4b5c)</text>
+<text x="18.0" y="440" xml:space="preserve">Kênh chat riêng: anh nhắn vào một nhóm chỉ có mình anh (từ app Tammi trên điện thoại) → Hermes trả lời ở đó.</text>
+<text x="18.0" y="459" xml:space="preserve">Chọn kênh chat riêng với Hermes:</text>
+<text x="18.0" y="478" xml:space="preserve">   1. Hermes của An — id #Xk29PqLmZ</text>
+<text x="18.0" y="497" xml:space="preserve">   2. không dùng — bỏ qua kênh chat riêng</text>
+<text x="18.0" y="516" xml:space="preserve">Chọn (1-2) [1]: </text>
+<text x="143.3" y="516" xml:space="preserve" fill="#ffffff" font-weight="bold">1</text>
+<text x="18.0" y="535" xml:space="preserve">   </text>
+<text x="41.5" y="535" xml:space="preserve" fill="#a6e3a1">→ Hermes của An</text>
+<text x="18.0" y="573" xml:space="preserve">Ai được nói chuyện với bot?</text>
+<text x="18.0" y="592" xml:space="preserve">   1. chọn người — chỉ những người anh chọn; người khác nhắn bot im lặng (khuyên dùng)</text>
+<text x="18.0" y="611" xml:space="preserve">   2. chỉ mình tôi — chỉ kênh chat riêng ở trên</text>
+<text x="18.0" y="630" xml:space="preserve">   3. pairing — người lạ nhắn sẽ NHẬN MÃ ghép đôi từ tài khoản anh, anh duyệt bằng `hermes pairing approve tammi &lt;mã&gt;`</text>
+<text x="18.0" y="649" xml:space="preserve">   4. mọi người — AI trả lời TẤT CẢ ai nhắn tài khoản này (rủi ro)</text>
+<text x="18.0" y="668" xml:space="preserve">Chọn (1-4) [2]: </text>
+<text x="143.3" y="668" xml:space="preserve" fill="#ffffff" font-weight="bold">1</text>
+<text x="18.0" y="687" xml:space="preserve">   </text>
+<text x="41.5" y="687" xml:space="preserve" fill="#a6e3a1">→ chọn người</text>
+<text x="18.0" y="706" xml:space="preserve">Chọn người được dùng bot:</text>
+<text x="18.0" y="725" xml:space="preserve">   3 mục. Gõ tên để tìm, gõ số để chọn (vd 1,3), &#x27;all&#x27; để xem hết, Enter trống để xong.</text>
+<text x="18.0" y="744" xml:space="preserve">   [ ] 1. Trần Thị Bình  </text>
+<text x="213.8" y="744" xml:space="preserve" fill="#7f849c">(f1a2b3c4d5e6f7a8b9c0d1e2)</text>
+<text x="18.0" y="763" xml:space="preserve">   [ ] 2. Lê Minh Châu  </text>
+<text x="205.9" y="763" xml:space="preserve" fill="#7f849c">(0a9b8c7d6e5f4a3b2c1d0e9f)</text>
+<text x="18.0" y="782" xml:space="preserve">   [ ] 3. Phạm Quốc Dũng  </text>
+<text x="221.6" y="782" xml:space="preserve" fill="#7f849c">(5e4d3c2b1a0f9e8d7c6b5a49)</text>
+<text x="18.0" y="801" xml:space="preserve">tìm / số / all / Enter=xong: </text>
+<text x="245.1" y="801" xml:space="preserve" fill="#ffffff" font-weight="bold">1,2</text>
+<text x="18.0" y="820" xml:space="preserve">   </text>
+<text x="41.5" y="820" xml:space="preserve" fill="#a6e3a1">Đã chọn: Trần Thị Bình, Lê Minh Châu</text>
+<text x="18.0" y="839" xml:space="preserve">tìm / số / all / Enter=xong: </text>
+<text x="18.0" y="877" xml:space="preserve">Trong nhóm, bot trả lời khi nào?</text>
+<text x="18.0" y="896" xml:space="preserve">   1. mention — chỉ khi được @nhắc tên hoặc reply tin của anh (khuyên dùng)</text>
+<text x="18.0" y="915" xml:space="preserve">   2. all — mọi tin trong nhóm được phép</text>
+<text x="18.0" y="934" xml:space="preserve">   3. off — không trả lời trong nhóm</text>
+<text x="18.0" y="953" xml:space="preserve">Chọn (1-3) [1]: </text>
+<text x="143.3" y="953" xml:space="preserve" fill="#ffffff" font-weight="bold">1</text>
+<text x="18.0" y="972" xml:space="preserve">   </text>
+<text x="41.5" y="972" xml:space="preserve" fill="#a6e3a1">→ mention</text>
+<text x="18.0" y="991" xml:space="preserve">Giới hạn bot trong một số nhóm cụ thể? [y/N]: </text>
+<text x="18.0" y="1029" xml:space="preserve">Home channel cho cron/thông báo (&lt;id&gt; hoặc group:&lt;id&gt;, trống = bỏ qua) [group:#Xk29PqLmZ]: </text>
+<text x="18.0" y="1067" xml:space="preserve">  </text>
+<text x="33.7" y="1067" xml:space="preserve" fill="#a6e3a1">Xong. Chạy `hermes gateway` — gateway sẽ tự bật bridge.</text>
+<text x="18.0" y="1086" xml:space="preserve">  Kiểm tra: curl http://127.0.0.1:8788/health   |   log bridge: /Users/an/.hermes-tammi/bridge.log</text>
+<text x="18.0" y="1105" xml:space="preserve">  </text>
+<text x="33.7" y="1105" xml:space="preserve" fill="#7f849c">Lưu ý: mở tammi.vn trên trình duyệt có thể đá bridge ra (cùng nền tảng web). Dùng app điện thoại thì không sao.</text>
+</g></svg>

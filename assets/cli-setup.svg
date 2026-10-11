@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1034" height="1208" viewBox="0 0 1034 1208" role="img" aria-label="hermes-tammi-plugin setup">
+<rect width="1034" height="1208" rx="10" fill="#1e1e2e"/>
+<rect width="1034" height="30" rx="10" fill="#313244"/><rect y="20" width="1034" height="10" fill="#313244"/>
+<circle cx="18" cy="15" r="6" fill="#ff5f57"/><circle cx="38" cy="15" r="6" fill="#febc2e"/><circle cx="58" cy="15" r="6" fill="#28c840"/>
+<text x="517" y="19" fill="#a6adc8" font-family="-apple-system, Segoe UI, sans-serif" font-size="12" text-anchor="middle">hermes-tammi-plugin setup</text>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#cdd6f4">
+<text x="18.0" y="60" xml:space="preserve" fill="#a6e3a1">$</text>
+<text x="25.8" y="60" xml:space="preserve"> </text>
+<text x="33.7" y="60" xml:space="preserve" fill="#ffffff" font-weight="bold">npm install -g hermes-tammi-plugin</text>
+<text x="18.0" y="79" xml:space="preserve" fill="#a6e3a1">$</text>
+<text x="25.8" y="79" xml:space="preserve"> </text>
+<text x="33.7" y="79" xml:space="preserve" fill="#ffffff" font-weight="bold">hermes-tammi-plugin setup</text>
+<text x="18.0" y="117" xml:space="preserve">  </text>
+<text x="33.7" y="117" xml:space="preserve" fill="#ff3b4a">╦ ╦┌─┐┬─┐┌┬┐┌─┐┌─┐  </text>
+<text x="190.3" y="117" xml:space="preserve" fill="#ff7ab8">╔╦╗┌─┐┌┬┐┌┬┐┬</text>
+<text x="18.0" y="136" xml:space="preserve">  </text>
+<text x="33.7" y="136" xml:space="preserve" fill="#ff3b4a">╠═╣├┤ ├┬┘│││├┤ └─┐  </text>
+<text x="190.3" y="136" xml:space="preserve" fill="#ff7ab8"> ║ ├─┤│││││││</text>
+<text x="18.0" y="155" xml:space="preserve">  </text>
+<text x="33.7" y="155" xml:space="preserve" fill="#ff3b4a">╩ ╩└─┘┴└─┴ ┴└─┘└─┘  </text>
+<text x="190.3" y="155" xml:space="preserve" fill="#ff7ab8"> ╩ ┴ ┴┴ ┴┴ ┴┴</text>
+<text x="18.0" y="174" xml:space="preserve">  </text>
+<text x="33.7" y="174" xml:space="preserve" fill="#7f849c">Hermes × Tammi plugin</text>
+<text x="18.0" y="193" xml:space="preserve">  </text>
+<text x="33.7" y="193" xml:space="preserve" fill="#7f849c">chat with your Hermes agent from Tammi (Viettel)</text>
+<text x="18.0" y="231" xml:space="preserve">Hermes Tammi Plugin — installer</text>
+<text x="18.0" y="250" xml:space="preserve" fill="#7f849c">(Safe to re-run: the SDK and login are skipped when already present, the service is re-registered.)</text>
+<text x="18.0" y="288" xml:space="preserve" fill="#a6e3a1">✓</text>
+<text x="25.8" y="288" xml:space="preserve"> Node v22.22.3</text>
+<text x="18.0" y="307" xml:space="preserve" fill="#a6e3a1">✓</text>
+<text x="25.8" y="307" xml:space="preserve"> Dependencies already present</text>
+<text x="18.0" y="345" xml:space="preserve" fill="#89dceb">[2] Tammi chat SDK…</text>
+<text x="18.0" y="364" xml:space="preserve">Downloading the Tammi web bundle and extracting the chat SDK …</text>
+<text x="18.0" y="383" xml:space="preserve" fill="#a6e3a1">✓</text>
+<text x="25.8" y="383" xml:space="preserve"> SDK 3.2.0 (appID 1090612485) saved to /Users/an/.hermes-tammi/sdk/zim-sdk.cjs</text>
+<text x="18.0" y="421" xml:space="preserve" fill="#89dceb">[3] Tammi login…</text>
+<text x="18.0" y="459" xml:space="preserve">Cách đăng nhập Tammi:</text>
+<text x="18.0" y="478" xml:space="preserve">  1. Lấy phiên từ trình duyệt (khuyên dùng — tammi.vn bắt Cloudflare captcha khi gửi OTP)</text>
+<text x="18.0" y="497" xml:space="preserve">  2. Số điện thoại + mật khẩu (chỉ khi tài khoản đã đặt mật khẩu trong app Tammi)</text>
+<text x="18.0" y="516" xml:space="preserve">  3. Số điện thoại + OTP (cần Cloudflare Turnstile token — nâng cao)</text>
+<text x="18.0" y="535" xml:space="preserve">Chọn (1-3) [1]: </text>
+<text x="143.3" y="535" xml:space="preserve" fill="#ffffff" font-weight="bold">1</text>
+<text x="18.0" y="573" xml:space="preserve">  1) Mở https://tammi.vn trên Chrome/Edge và đăng nhập như bình thường (OTP qua SMS).</text>
+<text x="18.0" y="592" xml:space="preserve">  2) Bấm F12 (hoặc Cmd+Option+J) → tab Console, gõ allow pasting nếu Chrome hỏi, rồi dán lệnh sau + Enter:</text>
+<text x="18.0" y="630" xml:space="preserve">     </text>
+<text x="57.1" y="630" xml:space="preserve" fill="#f9e2af">copy(JSON.stringify({token:localStorage.token,refresh_token:localStorage.refresh_token,device_id:localStorage.device_id}))</text>
+<text x="18.0" y="668" xml:space="preserve">  3) Quay lại đây và dán (Cmd+V / Ctrl+V) kết quả vừa copy.</text>
+<text x="18.0" y="687" xml:space="preserve">  </text>
+<text x="33.7" y="687" xml:space="preserve" fill="#f9e2af">⚠ Lấy xong thì ĐÓNG tab tammi.vn, KHÔNG bấm &quot;Đăng xuất&quot; (sẽ huỷ luôn phiên của bridge).</text>
+<text x="18.0" y="725" xml:space="preserve">Dán JSON: </text>
+<text x="96.3" y="725" xml:space="preserve" fill="#ffffff" font-weight="bold">***************************************************************</text>
+<text x="18.0" y="763" xml:space="preserve" fill="#a6e3a1">✓ Đăng nhập thành công: Nguyễn Văn An (0912345678), zegoId a1b2c3d4e5f60718293a4b5c</text>
+<text x="18.0" y="782" xml:space="preserve">  Phiên lưu tại /Users/an/.hermes-tammi/credentials.json (chmod 600).</text>
+<text x="18.0" y="820" xml:space="preserve" fill="#89dceb">[4] Background service (auto-start + auto-restart)…</text>
+<text x="18.0" y="839" xml:space="preserve" fill="#a6e3a1">✓</text>
+<text x="25.8" y="839" xml:space="preserve"> launchd service installed: /Users/an/Library/LaunchAgents/com.hermes.tammiplugin.plist</text>
+<text x="18.0" y="877" xml:space="preserve" fill="#89dceb">[5] Hermes plugin (so `hermes gateway` sees Tammi)…</text>
+<text x="18.0" y="896" xml:space="preserve">Hermes home: /Users/an/.hermes (default ~/.hermes)</text>
+<text x="18.0" y="915" xml:space="preserve" fill="#a6e3a1">✓</text>
+<text x="25.8" y="915" xml:space="preserve"> Plugin copied to /Users/an/.hermes/plugins/tammi</text>
+<text x="18.0" y="934" xml:space="preserve" fill="#a6e3a1">✓</text>
+<text x="25.8" y="934" xml:space="preserve"> Added &quot;tammi-platform&quot; to plugins.enabled in config.yaml</text>
+<text x="18.0" y="972" xml:space="preserve" fill="#7f849c">────────────────────────────────────────────────────────</text>
+<text x="18.0" y="991" xml:space="preserve" fill="#a6e3a1">✓ Tammi plugin is set up.</text>
+<text x="18.0" y="1029" xml:space="preserve">  Bridge:   http://127.0.0.1:8788   (health: curl http://127.0.0.1:8788/health)</text>
+<text x="18.0" y="1048" xml:space="preserve">  Status:   hermes-tammi-plugin status</text>
+<text x="18.0" y="1086" xml:space="preserve">Next, register Tammi in Hermes:</text>
+<text x="18.0" y="1105" xml:space="preserve">  1) </text>
+<text x="57.1" y="1105" xml:space="preserve" fill="#ffffff" font-weight="bold">hermes gateway setup</text>
+<text x="213.8" y="1105" xml:space="preserve">   → choose &quot;Tammi&quot;</text>
+<text x="18.0" y="1124" xml:space="preserve">  2) </text>
+<text x="57.1" y="1124" xml:space="preserve" fill="#ffffff" font-weight="bold">hermes gateway</text>
+<text x="166.8" y="1124" xml:space="preserve">         → start relaying</text>
+<text x="18.0" y="1162" xml:space="preserve">Re-login any time with: hermes-tammi-plugin login --force</text>
+<text x="18.0" y="1181" xml:space="preserve" fill="#7f849c">────────────────────────────────────────────────────────</text>
+</g></svg>

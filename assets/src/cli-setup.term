@@ -1,0 +1,61 @@
+# title: hermes-tammi-plugin setup
+[g]$[/] [i]npm install -g hermes-tammi-plugin[/]
+[g]$[/] [i]hermes-tammi-plugin setup[/]
+
+  [v]╦ ╦┌─┐┬─┐┌┬┐┌─┐┌─┐  [/][p]╔╦╗┌─┐┌┬┐┌┬┐┬[/]
+  [v]╠═╣├┤ ├┬┘│││├┤ └─┐  [/][p] ║ ├─┤│││││││[/]
+  [v]╩ ╩└─┘┴└─┴ ┴└─┘└─┘  [/][p] ╩ ┴ ┴┴ ┴┴ ┴┴[/]
+  [d]Hermes × Tammi plugin[/]
+  [d]chat with your Hermes agent from Tammi (Viettel)[/]
+
+Hermes Tammi Plugin — installer
+[d](Safe to re-run: the SDK and login are skipped when already present, the service is re-registered.)[/]
+
+[g]✓[/] Node v22.22.3
+[g]✓[/] Dependencies already present
+
+[c][2] Tammi chat SDK…[/]
+Downloading the Tammi web bundle and extracting the chat SDK …
+[g]✓[/] SDK 3.2.0 (appID 1090612485) saved to /Users/an/.hermes-tammi/sdk/zim-sdk.cjs
+
+[c][3] Tammi login…[/]
+
+Cách đăng nhập Tammi:
+  1. Lấy phiên từ trình duyệt (khuyên dùng — tammi.vn bắt Cloudflare captcha khi gửi OTP)
+  2. Số điện thoại + mật khẩu (chỉ khi tài khoản đã đặt mật khẩu trong app Tammi)
+  3. Số điện thoại + OTP (cần Cloudflare Turnstile token — nâng cao)
+Chọn (1-3) [1]: [i]1[/]
+
+  1) Mở https://tammi.vn trên Chrome/Edge và đăng nhập như bình thường (OTP qua SMS).
+  2) Bấm F12 (hoặc Cmd+Option+J) → tab Console, gõ allow pasting nếu Chrome hỏi, rồi dán lệnh sau + Enter:
+
+     [y]copy(JSON.stringify({token:localStorage.token,refresh_token:localStorage.refresh_token,device_id:localStorage.device_id}))[/]
+
+  3) Quay lại đây và dán (Cmd+V / Ctrl+V) kết quả vừa copy.
+  [y]⚠ Lấy xong thì ĐÓNG tab tammi.vn, KHÔNG bấm "Đăng xuất" (sẽ huỷ luôn phiên của bridge).[/]
+
+Dán JSON: [i]***************************************************************[/]
+
+[g]✓ Đăng nhập thành công: Nguyễn Văn An (0912345678), zegoId a1b2c3d4e5f60718293a4b5c[/]
+  Phiên lưu tại /Users/an/.hermes-tammi/credentials.json (chmod 600).
+
+[c][4] Background service (auto-start + auto-restart)…[/]
+[g]✓[/] launchd service installed: /Users/an/Library/LaunchAgents/com.hermes.tammiplugin.plist
+
+[c][5] Hermes plugin (so `hermes gateway` sees Tammi)…[/]
+Hermes home: /Users/an/.hermes (default ~/.hermes)
+[g]✓[/] Plugin copied to /Users/an/.hermes/plugins/tammi
+[g]✓[/] Added "tammi-platform" to plugins.enabled in config.yaml
+
+[d]────────────────────────────────────────────────────────[/]
+[g]✓ Tammi plugin is set up.[/]
+
+  Bridge:   http://127.0.0.1:8788   (health: curl http://127.0.0.1:8788/health)
+  Status:   hermes-tammi-plugin status
+
+Next, register Tammi in Hermes:
+  1) [b]hermes gateway setup[/]   → choose "Tammi"
+  2) [b]hermes gateway[/]         → start relaying
+
+Re-login any time with: hermes-tammi-plugin login --force
+[d]────────────────────────────────────────────────────────[/]

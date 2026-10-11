@@ -1,0 +1,8 @@
+# title: tammi.vn — DevTools › Console
+[y]⚠ Warning: Don’t paste code into the DevTools Console that you don’t understand or haven’t reviewed yourself.[/]
+[y]  This could allow attackers to steal your identity or take control of your computer.[/]
+[y]  Please type ‘allow pasting’ below and press Enter to allow pasting.[/]
+[c]>[/] [i]allow pasting[/]
+[c]>[/] [i]copy(JSON.stringify({token:localStorage.token,refresh_token:localStorage.refresh_token,device_id:localStorage.device_id}))[/]
+[d]<· undefined[/]
+[d]   (the JSON is now on your clipboard — paste it into the terminal)[/]

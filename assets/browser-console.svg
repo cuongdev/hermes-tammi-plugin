@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1010" height="201" viewBox="0 0 1010 201" role="img" aria-label="tammi.vn — DevTools › Console">
+<rect width="1010" height="201" rx="10" fill="#1e1e2e"/>
+<rect width="1010" height="30" rx="10" fill="#313244"/><rect y="20" width="1010" height="10" fill="#313244"/>
+<circle cx="18" cy="15" r="6" fill="#ff5f57"/><circle cx="38" cy="15" r="6" fill="#febc2e"/><circle cx="58" cy="15" r="6" fill="#28c840"/>
+<text x="505" y="19" fill="#a6adc8" font-family="-apple-system, Segoe UI, sans-serif" font-size="12" text-anchor="middle">tammi.vn — DevTools › Console</text>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#cdd6f4">
+<text x="18.0" y="60" xml:space="preserve" fill="#f9e2af">⚠ Warning: Don’t paste code into the DevTools Console that you don’t understand or haven’t reviewed yourself.</text>
+<text x="18.0" y="79" xml:space="preserve" fill="#f9e2af">  This could allow attackers to steal your identity or take control of your computer.</text>
+<text x="18.0" y="98" xml:space="preserve" fill="#f9e2af">  Please type ‘allow pasting’ below and press Enter to allow pasting.</text>
+<text x="18.0" y="117" xml:space="preserve" fill="#89dceb">&gt;</text>
+<text x="25.8" y="117" xml:space="preserve"> </text>
+<text x="33.7" y="117" xml:space="preserve" fill="#ffffff" font-weight="bold">allow pasting</text>
+<text x="18.0" y="136" xml:space="preserve" fill="#89dceb">&gt;</text>
+<text x="25.8" y="136" xml:space="preserve"> </text>
+<text x="33.7" y="136" xml:space="preserve" fill="#ffffff" font-weight="bold">copy(JSON.stringify({token:localStorage.token,refresh_token:localStorage.refresh_token,device_id:localStorage.device_id}))</text>
+<text x="18.0" y="155" xml:space="preserve" fill="#7f849c">&lt;· undefined</text>
+<text x="18.0" y="174" xml:space="preserve" fill="#7f849c">   (the JSON is now on your clipboard — paste it into the terminal)</text>
+</g></svg>

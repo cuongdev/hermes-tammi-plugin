@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1026" height="220" viewBox="0 0 1026 220" role="img" aria-label="hermes-tammi-plugin status">
+<rect width="1026" height="220" rx="10" fill="#1e1e2e"/>
+<rect width="1026" height="30" rx="10" fill="#313244"/><rect y="20" width="1026" height="10" fill="#313244"/>
+<circle cx="18" cy="15" r="6" fill="#ff5f57"/><circle cx="38" cy="15" r="6" fill="#febc2e"/><circle cx="58" cy="15" r="6" fill="#28c840"/>
+<text x="513" y="19" fill="#a6adc8" font-family="-apple-system, Segoe UI, sans-serif" font-size="12" text-anchor="middle">hermes-tammi-plugin status</text>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#cdd6f4">
+<text x="18.0" y="60" xml:space="preserve" fill="#a6e3a1">$</text>
+<text x="25.8" y="60" xml:space="preserve"> </text>
+<text x="33.7" y="60" xml:space="preserve" fill="#ffffff" font-weight="bold">hermes-tammi-plugin status</text>
+<text x="18.0" y="79" xml:space="preserve">Data dir:    /Users/an/.hermes-tammi</text>
+<text x="18.0" y="98" xml:space="preserve">SDK:         3.2.0 (2026-10-11T09:16:39.718Z)</text>
+<text x="18.0" y="117" xml:space="preserve">Login:       </text>
+<text x="119.8" y="117" xml:space="preserve" fill="#a6e3a1">yes</text>
+<text x="143.3" y="117" xml:space="preserve"> (Nguyễn Văn An)</text>
+<text x="18.0" y="136" xml:space="preserve">Tokens:      access until 2026-10-26 09:53 UTC (15d), refresh until 2027-01-09 09:53 UTC (90d) — auto-renewed while the bridge</text>
+<text x="18.0" y="155" xml:space="preserve">   runs</text>
+<text x="18.0" y="174" xml:space="preserve">Bridge:      http://127.0.0.1:8788 loggedIn=</text>
+<text x="362.5" y="174" xml:space="preserve" fill="#a6e3a1">true</text>
+<text x="393.8" y="174" xml:space="preserve"> state=</text>
+<text x="448.6" y="174" xml:space="preserve" fill="#a6e3a1">connected</text>
+<text x="18.0" y="193" xml:space="preserve">Plugin:      installed in /Users/an/.hermes</text>
+</g></svg>

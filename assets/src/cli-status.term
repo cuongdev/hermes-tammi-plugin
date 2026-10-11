@@ -1,0 +1,8 @@
+# title: hermes-tammi-plugin status
+[g]$[/] [i]hermes-tammi-plugin status[/]
+Data dir:    /Users/an/.hermes-tammi
+SDK:         3.2.0 (2026-10-11T09:16:39.718Z)
+Login:       [g]yes[/] (Nguyễn Văn An)
+Tokens:      access until 2026-10-26 09:53 UTC (15d), refresh until 2027-01-09 09:53 UTC (90d) — auto-renewed while the bridge runs
+Bridge:      http://127.0.0.1:8788 loggedIn=[g]true[/] state=[g]connected[/]
+Plugin:      installed in /Users/an/.hermes
